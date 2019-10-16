@@ -27,6 +27,4 @@ var num = Math.floor(Math.random() * 100) + 1;
 // PASSWORD
 var password = nome + cognome + colore + num;
 
-var htmlElement = document.getElementById('password');
-
-htmlElement.innerHTML = password;
+document.getElementById('password').innerHTML = password;
