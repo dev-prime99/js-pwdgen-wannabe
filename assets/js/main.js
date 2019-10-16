@@ -13,21 +13,13 @@ var colore = prompt("Scrivi il tuo colore preferito");
               // OUTPUT
 
 // INIZIO
-var ciao = "Ciao";
-var htmlElement = document.getElementById('ciao');
-htmlElement.innerHTML = ciao;
+document.getElementById('ciao').innerHTML ="Ciao";
 
-var nome2 = nome;
-var htmlElement = document.getElementById('nome');
-htmlElement.innerHTML = nome;
+document.getElementById('nome').innerHTML = nome;
 
-var cognome = cognome;
-var htmlElement = document.getElementById('cognome');
-htmlElement.innerHTML = cognome;
+document.getElementById('cognome').innerHTML = cognome;
 
-var gen = "la tua nuova PASSWORD generata è:"
-var htmlElement = document.getElementById('gen');
-htmlElement.innerHTML = gen;
+document.getElementById('gen').innerHTML ="la tua nuova PASSWORD generata è:";
 
 // NUMERO RANDOM
 var num = Math.floor(Math.random() * 100) + 1;
